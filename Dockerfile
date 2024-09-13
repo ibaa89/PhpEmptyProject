@@ -1,5 +1,5 @@
 # Stage 1: Base image with PHP and necessary extensions
-FROM php:8.1-fpm-alpine as base
+FROM php:8.2-fpm-alpine as base
 
 # Install PHP extensions
 RUN docker-php-ext-install pdo pdo_mysql mysqli
